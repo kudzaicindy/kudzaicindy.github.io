@@ -199,7 +199,7 @@ header .footer p a{
     z-index:999 ;
 }
 /* Mobile view*/
-@media  screen and (max-width:500px){
+@media screen and (max-width: 480px){
     header{
         left: -300px;
     }
@@ -228,7 +228,7 @@ main{
     transition: 0.3s;
 
 }
-@media  screen and (max-width:600px){
+@media screen and (max-width: 480px){
     main{
         margin-left: 0;
         
@@ -286,14 +286,14 @@ main{
 #Home .Home-row p span{
     border-bottom: 4px solid var(--themeColor);
 }
-@media  screen and(max-width :670px) {
+@media screen and (max-width: 480px) {
     #Home{
         padding: 30px;
     }
     #Home.Home-row h1{
-        font-size: 35px;
+        font-size: 25px;
         letter-spacing:  0;
-        line-height: 50px;
+        line-height: 40px;
 
     }
     #Home.Home-row h1 br{
@@ -386,13 +386,13 @@ main{
     font-size: 15px;
 }
 /* Mobile view */
-@media  screen and(max-width :500px){
+@media screen and (max-width: 480px){
     #About{
-        padding: 50px 10px;
+        padding: 30px 10px;
     }
     #About .divider ~p{
         
-        font-size: 14px;
+        font-size: 10px;
         letter-spacing: 0px;
         text-align: justify;
     }
@@ -400,13 +400,13 @@ main{
        flex-direction: column;
     }
     #About .about-col .img-col img{
-        width:50%;
+        width:30%;
     }
      
     #About .about-col .info-col h2{
         
-        font-weight: 600;
-        font-size: 25px;
+        font-weight: 400;
+        font-size: 20px;
         letter-spacing: 0px;
     }
     #About .about-col .info-col p{
@@ -431,9 +431,9 @@ main{
         font-size: 13px;
     }
 }
-@media  screen and(max-width :400px){
+@media screen and (max-width: 480px){
     #About .about-col .img-col img{
-        width: 90%;
+        width: 70%;
     }
 }
 /* ======About section Ends*/
@@ -470,10 +470,9 @@ main{
      font-size: 16px;
 }
 
-
-@media  screen and(max-width: 500px){
+@media screen and (max-width: 480px){
     #fact{
-        padding :40px 15px;
+        padding :30px 15px;
        
     
     }
@@ -485,7 +484,7 @@ main{
 }
 @media  screen and(max-width: 370px ){
     #fact .fact-row .fact-box i{
-        font-size: 30px;   
+        font-size: 10px;   
        }
     #fact .fact-row .fact-box strong{
         font-size: 20px;
@@ -493,7 +492,7 @@ main{
         }
         #fact .fact-row .fact-box p{
             
-            font-weight: 400;
+            font-weight: 300;
             font-size: 14px;
         }
 
@@ -543,9 +542,9 @@ main{
 
 }
 /*mobile view*/
-@media   screen and (max-width:450px){
+@media screen and (max-width: 480px){
      #skills{
-            padding: 50px 15px;
+            padding: 30px 15px;
 
            }
     #skills .skill-row{
@@ -691,9 +690,9 @@ main{
     font-weight: 500;
 
 }
-@media  screen and(max-width : 500px ){
+@media screen and (max-width: 480px){
     #resume{
-        padding: 50px 15px;
+        padding: 30px 15px;
         
 
     }
@@ -786,21 +785,21 @@ main{
     color: var(--bgColor);
 }
 /* mobile view*/
-@media   screen and(max-width:500px ) {
+@media screen and (max-width: 480px ) {
     #portfolio{
-        padding: 50px 30px;
+        padding: 30px 10px;
 
     }
     #portfolio .port-row{
         grid-template-columns: repeat(2, 1fr);
-        grid-gap:15px;
+        grid-gap:10px;
 
     }
 }
 @media   screen and(max-width:350px ) {
     #portfolio .port-row{
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 15px;
+        grid-gap: 10px;
     }
 }
 
@@ -860,22 +859,22 @@ main{
 
 
 /*Mobile view*/
-@media   screen and(max-width:500px ) {
+@media screen and (max-width: 480px ) {
     #service{
-        padding: 50px 15px;
+        padding: 30px 10px;
 
     }
     #service .service-row{
         grid-template-columns: repeat(2, 1fr);
-        grid-gap:15px;
+        grid-gap:10px;
 
     }
 }
-@media   screen and(max-width:500px ) {
+@media screen and (max-width: 480px ) {
     
     #service .service-row{
         grid-template-columns: repeat(1, 1fr);
-        grid-gap:15px;
+        grid-gap:10px;
 
     }
 }
@@ -980,14 +979,14 @@ main{
     cursor: pointer;
 }
 /*Mobile view*/
-@media   screen and(max-width:500px ) {
+@media screen and (max-width: 480px) {
     #contact{
-        padding: 50px ;
+        padding: 20px ;
 
     }
     #contact .contact-row{
        flex-direction: column;
-       gap: 10px;
+       gap: 20px;
 
 
     }
@@ -995,7 +994,7 @@ main{
 /*Mobile view*/
 @media   screen and(max-width:300px ) {
     #contact{
-        padding: 50px 10px;
+        padding: 30px 10px;
 
     }
   
